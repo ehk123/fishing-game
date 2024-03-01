@@ -4,7 +4,7 @@ namespace MyGame;
 
 public class Map
 {
-    private readonly Point _mapTileSize = new(4, 3);
+    private readonly Point _mapTileSize = new(12, 9);
     private readonly Sprite[,] _tiles;
     public Point TileSize { get; private set; }
     public Point MapSize { get; private set; }

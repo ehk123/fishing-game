@@ -2,8 +2,10 @@ namespace MyGame;
 
 public class GameManager
 {
+    private readonly Map _map;
     public GameManager()
     {
+        _map = new();
     }
 
     public void Update()
@@ -14,6 +16,7 @@ public class GameManager
     public void Draw()
     {
         Globals.SpriteBatch.Begin();
+        _map.Draw();
         Globals.SpriteBatch.End();
     }
 }
