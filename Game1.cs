@@ -24,7 +24,7 @@ public class Game1 : Game
     {
         // TODO: Add your initialization logic here
         ballPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2, _graphics.PreferredBackBufferHeight / 2);
-        ballSpeed = 100f;
+        ballSpeed = 200f;
 
         base.Initialize();
     }
