@@ -1,6 +1,3 @@
-using System.Numerics;
-using Microsoft.Xna.Framework.Input;
-
 namespace MyGame;
 
 public static class InputManager
