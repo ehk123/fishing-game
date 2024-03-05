@@ -25,7 +25,7 @@
 /processorParam:TextureFormat=Color
 /build:ball.png
 
-#begin character_right_1.png
+#begin character_right_1_upscaled.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -35,7 +35,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:character_right_1.png
+/build:character_right_1_upscaled.png
 
 #begin grass.png
 /importer:TextureImporter
@@ -61,7 +61,7 @@
 /processorParam:TextureFormat=Color
 /build:peter.png
 
-#begin tile_1_1.png
+#begin tile_1_1_upscaled.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -71,5 +71,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:tile_1_1.png
+/build:tile_1_1_upscaled.png
 
