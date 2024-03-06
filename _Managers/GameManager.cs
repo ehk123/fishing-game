@@ -8,7 +8,7 @@ public class GameManager
     public GameManager()
     {
         _map = new();
-        _character = new(Globals.Content.Load<Texture2D>("character_spritesheet_upscaled"), Globals.Content.Load<Texture2D>("character_right_1_upscaled"), new(Globals.WindowSize.X / 2, Globals.WindowSize.Y / 2));
+        _character = new(Globals.Content.Load<Texture2D>("character_spritesheet_upscaled"), new(Globals.WindowSize.X / 2, Globals.WindowSize.Y / 2), 64, 64);
         _character.SetBounds(_map.MapSize, _map.TileSize);
     }
     

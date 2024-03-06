@@ -20,7 +20,7 @@ public class Map
         {
             for (int x = 0; x < _mapTileSize.X; x++)
             {
-                _tiles[x, y] = new(texture, new(x * TileSize.X, y * TileSize.Y));
+                _tiles[x, y] = new(texture, new(x * TileSize.X, y * TileSize.Y), TileSize.X, TileSize.Y);
             }
         }
     }

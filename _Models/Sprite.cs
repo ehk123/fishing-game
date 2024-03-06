@@ -6,11 +6,11 @@ public class Sprite
     public Vector2 Position { get; protected set; }
     public Vector2 Origin { get; protected set; }
 
-    public Sprite(Texture2D texture, Vector2 position)
+    public Sprite(Texture2D texture, Vector2 position, int textureWidth, int textureHeight)
     {
         _texture = texture;
         Position = position;
-        Origin = new(_texture.Width / 2, _texture.Height / 2);
+        Origin = new(textureWidth / 2, textureHeight/ 2);
     }
 
     public void Draw()
