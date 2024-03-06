@@ -8,7 +8,7 @@ public class GameManager
     public GameManager()
     {
         _map = new();
-        _character = new(Globals.Content.Load<Texture2D>("character_right_1_upscaled"), new(Globals.WindowSize.X / 2, Globals.WindowSize.Y / 2));
+        _character = new(Globals.Content.Load<Texture2D>("character_spritesheet_upscaled"), new(Globals.WindowSize.X / 2, Globals.WindowSize.Y / 2));
         _character.SetBounds(_map.MapSize, _map.TileSize);
     }
 
@@ -32,7 +32,7 @@ public class GameManager
     {
         Globals.SpriteBatch.Begin(transformMatrix: _translation);
         _map.Draw();
-        _character.Draw();
+        _character.DrawAnimation();
         Globals.SpriteBatch.End();
     }
 }
