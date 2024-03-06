@@ -11,7 +11,7 @@ public class Map
     {
         _tiles = new Sprite[_mapTileSize.X, _mapTileSize.Y];
 
-        Texture2D texture = Globals.Content.Load<Texture2D>("tile_1_1_upscaled");
+        Texture2D texture = Globals.Content.Load<Texture2D>("grass");
 
         TileSize = new(texture.Width, texture.Height);
         MapSize = new(TileSize.X * _mapTileSize.X, TileSize.Y * _mapTileSize.Y);
