@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace MyGame;
 
 public class AnimationManager
